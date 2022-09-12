@@ -1297,7 +1297,7 @@ header{
  * ------------------------------------------------------------------- 
  */
 #intro {
-	background: #151515 url(../images/wd1.jpg) no-repeat center bottom;
+	background: #151515 url(../images/bg.jpg) no-repeat center bottom;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	background-size: cover;
@@ -1316,8 +1316,8 @@ header{
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: #111111;
-	opacity: .75;
+	/* background: #111111; */
+	/* opacity: .25; */
 }
 
 .intro-content {
