@@ -1507,6 +1507,9 @@ header{
 	padding-top: 12rem;
 	padding-bottom: 15rem;
 }
+#about h1{
+	color: teal;
+}
 #about .section-intro {
 	margin-bottom: 3rem;
 }
