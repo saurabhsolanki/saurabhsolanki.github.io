@@ -1189,7 +1189,7 @@ input::-moz-focus-inner {
   justify-items: left;
   padding: 1%;
   overflow: hidden;
-  z-index: 100;
+  z-index: 1;
   position: fixed;
 }
 #navbar a {
@@ -2043,6 +2043,10 @@ header {
   gap: 10px;
 }
 
+.calendar {
+/* border: 15px solid red; */
+width: 100%;
+}
 /**
   * responsive:
   * portfolio
