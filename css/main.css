@@ -1449,7 +1449,7 @@ header {
   * ------------------------------------------------------------------- 
   */
 #intro {
-  background: #323232 url(../images/bb2.jpg) no-repeat center;
+  background: #323232 url("https://t3.ftcdn.net/jpg/04/40/13/78/360_F_440137850_sBJOKpItVGgxB2XgCY4pxJECaU3QTEXC.jpg") no-repeat center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -2747,7 +2747,7 @@ footer .copyright span:last-child::after {
   line-height: inherit;
 }
 #go-top a:hover {
-  background: #000000;
+  background: teal;
 }
 
 /*# sourceMappingURL=main.css.map */
@@ -2774,7 +2774,7 @@ footer .copyright span:last-child::after {
   
   .topnav a:hover {
 	/* background-color: #ddd; */
-	color: black;
+	color: teal;
   }
   
   .topnav a.active {
@@ -2795,7 +2795,7 @@ footer .copyright span:last-child::after {
 	}
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 320px) {
 	.topnav.responsive {position: relative;}
 	.topnav.responsive .icon {
 	  position: absolute;
