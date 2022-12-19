@@ -40,19 +40,18 @@
 
 <body id="top">
 
-<div id="full_nav"> 
-<div id="navbar">
- <div id="leftnav"><a href="index.html">SAURABH SOLANKI</a></div>
- <div id="rightnav">
-	 <div><a  class="smoothscroll" href="#intro">Home</a></div>
-	 <div><a  class="smoothscroll" href="#about">About</a></div>
-	 <div><a  class="smoothscroll" href="#resume">Resume</a></div>
-	 <div><a  class="smoothscroll" href="#skills">Skills</a></div>
-	 <div><a  class="smoothscroll" href="#portfolio">Projects</a></div>
-	 <div><a  class="smoothscroll" href="#contact">Contact</a></div>
- </div>
-</div>
-</div>
+	<div class="topnav" id="myTopnav">
+		<a href="index.html" class="active">Saurabh Solanki</a>
+		<a href="#contact">Contact</a>
+		<a href="./Divyanka_Rai_Resume.pdf" download >Resume</a>
+		<a href="#portfolio">Projects</a>
+		<a href="#skills">Skills</a>
+		<a href="#about">About</a>
+		<a href="#intro">Home</a>
+		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+		  <i class="fa fa-bars"></i>
+		</a>
+	  </div>
 
 	<!-- intro section
    ================================================== -->
@@ -194,8 +193,8 @@
 	<div class="row button-section">
 		<div class="col-twelve">
 			<a href="#contact" title="Hire Me" class="button stroke smoothscroll">Hire Me</a>
-			<a href="/data/Saurabh_Solanki_Resume (2).pdf" download target="_blank" title="Download CV" class="button button-primary" >Download CV</a>
-			<!-- <a href="https://drive.google.com/file/d/1H_pAEi5wwEu5pDGj_6Olt1smY8sYLs_-/view?usp=sharing" download target="_blank" title="Download CV" class="button button-primary" >Download CV</a> -->
+			<a href="/data/Saurabh-Solanki-Resume.pdf" download target="_blank" title="Download CV" class="button button-primary" >Download CV</a>
+			<a href="https://drive.google.com/file/d/1H_pAEi5wwEu5pDGj_6Olt1smY8sYLs_-/view?usp=sharing" download target="_blank" title="Download CV" class="button button-primary" >View CV</a>
 		</div>   		
 	</div>
 
@@ -380,7 +379,7 @@
 <div id="updivclan">
 
 
-<div class="calendar">
+<div style="margin-top: 3%" class="calendar">
          
 </div>
 </div>
@@ -617,6 +616,16 @@
 <script src="js/jquery-2.1.3.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
+<script>
+	function myFunction() {
+	  var x = document.getElementById("myTopnav");
+	  if (x.className === "topnav") {
+		x.className += " responsive";
+	  } else {
+		x.className = "topnav";
+	  }
+	}
+	</script>
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 	<script>
 		GitHubCalendar(".calendar", "saurabhsolanki");
