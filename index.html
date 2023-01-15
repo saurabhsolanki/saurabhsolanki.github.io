@@ -37,21 +37,38 @@
    <link rel="icon" type="image/png" href="logo_4.png">
 
 </head>
+<!-- <nav>
+	<div class="logo">Saurabh Solanki</div>
+	<input type="checkbox" id="click">
+	<label for="click" class="menu-btn">
+	  <i class="fas fa-bars"></i>
+	</label>
+	<ul>
+	  <li><a class="active" href="#intro">Home</a></li>
+	  <li><a href="#about">About</a></li>
+	  <li><a href="#skills">Skills</a></li>
+	  <li><a href="#portfolio">Projects</a></li>
+	  <li><a href="/data/Saurabh-Solanki-Resume.pdf" download >Resume</a></li>
+	  <li><a href="#contact">Contact</a></li>
+	</ul>
+  </nav> -->
 
 <body id="top">
+	<nav>
 
-	<div class="topnav" id="myTopnav">
-		<a href="index.html" class="active">Saurabh Solanki</a>
+		<div class="topnav" id="myTopnav">
+			<a href="index.html" class="active">Saurabh Solanki</a>
 		<a href="#contact">Contact</a>
-		<a href="/data/Saurabh-Solanki-Resume.pdf" download >Resume</a>
+		<a href="/data/Saurabh-Solanki-Resume.pdf" download onclick="resumeBtn()">Resume</a>
 		<a href="#portfolio">Projects</a>
 		<a href="#skills">Skills</a>
 		<a href="#about">About</a>
 		<a href="#intro">Home</a>
 		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-		  <i class="fa fa-bars"></i>
+			<i class="fa fa-bars"></i>
 		</a>
-	  </div>
+	</div>
+</nav>
 
 	<!-- intro section
    ================================================== -->
@@ -651,6 +668,10 @@
 	  } else {
 		x.className = "topnav";
 	  }
+	}
+
+	function resumeBtn(){
+		window.open("https://drive.google.com/file/d/1qiDNx66AyExWF-g9suABpPHUHznA50k-/view?usp=share_link")
 	}
 	</script>
 <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
